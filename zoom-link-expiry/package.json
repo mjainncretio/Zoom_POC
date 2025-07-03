@@ -1,0 +1,15 @@
+{
+  "name": "zoom-link-expiry",
+  "version": "1.0.0",
+  "description": "A lightweight server that checks a Zoom meeting link and redirects users based on the link's validity.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^3.1.9"
+  },
+  "author": "",
+  "license": "ISC"
+}
